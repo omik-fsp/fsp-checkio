@@ -12,7 +12,7 @@ def to_encrypt(text, delta):
         if charN >= 97:
             charN += delta
 
-        # If over 122 or under 97 - or + 26 to keep at same (delta) distance
+        # If over 122 or under 97 add or substract 26 to keep at same (delta) distance
         if charN > 122:
             charN -= 26
 
